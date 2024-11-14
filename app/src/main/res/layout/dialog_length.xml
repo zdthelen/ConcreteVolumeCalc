@@ -1,0 +1,34 @@
+<!-- res/layout/dialog_length.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputLengthFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Length (feet)"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/inputLengthInches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Length (inches)"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/buttonNextMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Measurement"/>
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"/>
+</LinearLayout>
